@@ -17,9 +17,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import com.example.bank.config.dummy.DummyObject;
 import com.example.bank.domain.user.User;
 import com.example.bank.domain.user.UserRepository;
-import com.example.bank.service.UserService;
-import com.example.dto.user.UserRequestDto.SignUpReqDto;
-import com.example.dto.user.UserResponseDto.SignUpResDto;
+import com.example.bank.dto.user.UserRequestDto.SignUpReqDto;
+import com.example.bank.dto.user.UserResponseDto.SignUpResDto;
 
 // Spring 관련 Bean들이 하나도 없는 환경!!
 @ExtendWith(MockitoExtension.class)

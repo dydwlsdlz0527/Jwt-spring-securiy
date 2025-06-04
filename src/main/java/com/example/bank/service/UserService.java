@@ -9,8 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 import com.example.bank.domain.user.User;
 import com.example.bank.domain.user.UserRepository;
 import com.example.bank.handler.ex.CustomApiException;
-import com.example.dto.user.UserRequestDto.SignUpReqDto;
-import com.example.dto.user.UserResponseDto.SignUpResDto;
+import com.example.bank.dto.user.UserRequestDto.SignUpReqDto;
+import com.example.bank.dto.user.UserResponseDto.SignUpResDto;
 
 import lombok.RequiredArgsConstructor;
 

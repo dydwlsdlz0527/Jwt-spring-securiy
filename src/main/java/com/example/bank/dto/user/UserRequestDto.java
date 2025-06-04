@@ -1,4 +1,4 @@
-package com.example.dto.user;
+package com.example.bank.dto.user;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

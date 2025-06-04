@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.example.bank.handler.ex.CustomApiException;
 import com.example.bank.handler.ex.CustomValidationException;
-import com.example.dto.ResponseDto;
+import com.example.bank.dto.ResponseDto;
 
 @RestControllerAdvice
 public class CustomExceptionHandler {

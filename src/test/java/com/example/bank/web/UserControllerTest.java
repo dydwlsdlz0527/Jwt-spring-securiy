@@ -1,6 +1,5 @@
 package com.example.bank.web;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -14,7 +13,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import com.example.bank.config.dummy.DummyObject;
 import com.example.bank.domain.user.UserRepository;
-import com.example.dto.user.UserRequestDto.SignUpReqDto;
+import com.example.bank.dto.user.UserRequestDto.SignUpReqDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @AutoConfigureMockMvc

@@ -1,4 +1,4 @@
-package com.example.utils;
+package com.example.bank.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

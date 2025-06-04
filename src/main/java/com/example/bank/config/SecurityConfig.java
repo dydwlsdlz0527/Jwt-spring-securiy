@@ -16,7 +16,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import com.example.bank.config.jwt.JwtAuthenticationFilter;
 import com.example.bank.domain.user.UserEnum;
-import com.example.utils.CustomResponseUtil;
+import com.example.bank.utils.CustomResponseUtil;
 
 @Configuration
 public class SecurityConfig {

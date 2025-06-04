@@ -1,10 +1,10 @@
-package com.example.utils;
+package com.example.bank.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 
-import com.example.dto.ResponseDto;
+import com.example.bank.dto.ResponseDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import jakarta.servlet.http.HttpServletResponse;

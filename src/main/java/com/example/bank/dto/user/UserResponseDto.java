@@ -1,7 +1,7 @@
-package com.example.dto.user;
+package com.example.bank.dto.user;
 
 import com.example.bank.domain.user.User;
-import com.example.utils.CustomDateUtil;
+import com.example.bank.utils.CustomDateUtil;
 
 import lombok.Getter;
 import lombok.Setter;

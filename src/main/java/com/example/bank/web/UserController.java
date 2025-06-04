@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.bank.dto.ResponseDto;
+import com.example.bank.dto.user.UserRequestDto.SignUpReqDto;
+import com.example.bank.dto.user.UserResponseDto.SignUpResDto;
 import com.example.bank.service.UserService;
-import com.example.dto.ResponseDto;
-import com.example.dto.user.UserRequestDto.SignUpReqDto;
-import com.example.dto.user.UserResponseDto.SignUpResDto;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
